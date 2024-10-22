@@ -19,10 +19,7 @@
   @for(producto of productos;track producto.name){
  <!-- tarjeta1 -->
  <div class="tarjetaindividual">
-  <img
-    [src]="producto.picture"
-    alt=""
-  />
+  <img     [src]="producto.picture"    alt=""  />
   <div class="Textoproducto1">
     <h4 class="name-producto"> {{ producto.name}} <i class="bi bi-heart"></i></h4>
     <h4 class="price-producto">{{ producto.price}} COP</h4>

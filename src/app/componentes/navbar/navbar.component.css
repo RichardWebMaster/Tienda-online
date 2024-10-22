@@ -1,28 +1,40 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-  }
-  
-  .menuprimario {
-    background-color: #074a59;
-    padding: 80px;
-    color: rgb(255, 255, 255);
-    text-align: right;
-  }
-  .bi.bi-person {
-    margin: 10px;
-  }
-  
-  .menusecundario {
-    background-color: #feb400;
-    padding: 80px;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .titleneoclothes {
-    font-size: 120px;
-  }
-  
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.menuprimario {
+  background-color: #074a59;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+
+  /* icono de perfil*/
+.bi.bi-person {
+  margin: 10px;
+}
+
+.menusecundario {
+  background-color: #feb400;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.bi.bi-arrow-left-short.bi.bi-arrow-left-short.flechitamenu{
+  margin: 10px;
+}
+
+/* texto footer */
+.titleneoclothes {
+  font-size: 50px;
+}
+
+/* icono de carrito */
+.bi.bi-cart {
+  margin: 10px;
+  size: 120px;
+}

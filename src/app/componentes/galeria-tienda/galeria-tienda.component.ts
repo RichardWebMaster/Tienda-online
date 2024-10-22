@@ -5,82 +5,169 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './galeria-tienda.component.html',
-  styleUrl: './galeria-tienda.component.css'
+  styleUrl: './galeria-tienda.component.css',
 })
 export class GaleriaTiendaComponent {
+  // // productos tarjetas
 
-productos=[
-  {
+  // producto1
 
-    name:"camisa de verano",
-    size: "M",
-    stock: "100 Uunidades",
-    price: "200000",
-    category: "sacos",
-    brand: "Nike",
-    sku: "saco-pluma-nike",
-    picture: "https://armatura.com.co/cdn/shop/files/camisa-hombre-cuadros-azul-naval-cuello.webp?v=1716839126&width=540"
+  productos = [
+    {
+      name: 'camisa de verano',
+      size: 'M',
+      stock: '100 Uunidades',
+      price: '200000',
+      category: 'sacos',
+      brand: 'Nike',
+      sku: 'saco-pluma-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-1.png',
+    },
+    // producto2
 
+    {
+      name: 'camisa de Nieve Suave',
+      size: 'S',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisas',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-2.png',
+    },
+    // producto3
 
-},
+    {
+      name: 'camisa Brisa Marina',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-3.png',
+    },
+    // producto4
+    {
+      name: 'camisa Refugio Invernal',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-4.png',
+    },
 
-{
-  name:"camisa de invierno",
-  size: "S",
-  stock: "200 unidades",
-  price: "300000",
-  category: "camisas",
-  brand: "Adidas",
-  sku: "camisa-nike",
-  picture: "https://img.kwcdn.com/product/fancy/2b5091d0-fd22-4f0c-9325-59a45b8c0995.jpg?imageView2/2/w/800/q/70/format/webp"
+    // producto5
 
+    {
+      name: 'camisa Rayos de Sol',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-5.png',
+    },
 
-},
-{
-  name:"camisa de invierno",
-  size: "L",
-  stock: "200 unidades",
-  price: "300000",
-  category: "camisa",
-  brand: "Adidas",
-  sku: "camisa-nike",
-  picture: "https://armatura.com.co/cdn/shop/files/camisa-hombre-cuadros-azul-naval-cuello.webp?v=1716839126&width=540"
+    // producto6
 
-},
-{
-  name:"camisa de invierno",
-  size: "L",
-  stock: "200 unidades",
-  price: "300000",
-  category: "camisa",
-  brand: "Adidas",
-  sku: "camisa-nike",
-  picture: "https://armatura.com.co/cdn/shop/files/camisa-hombre-cuadros-azul-naval-cuello.webp?v=1716839126&width=540"
+    {
+      name: 'camisa Olas y Palmeras',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-4.png',
+    },
+    // producto7
 
-},
-{
-  name:"camisa de invierno",
-  size: "L",
-  stock: "200 unidades",
-  price: "300000",
-  category: "camisa",
-  brand: "Adidas",
-  sku: "camisa-nike",
-  picture: "https://armatura.com.co/cdn/shop/files/camisa-hombre-cuadros-azul-naval-cuello.webp?v=1716839126&width=540"
+    {
+      name: 'camisa Olas y Palmeras',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-5.png',
+    },
+    // producto8
 
-},
-{
-  name:"camisa de invierno",
-  size: "L",
-  stock: "200 unidades",
-  price: "300000",
-  category: "camisa",
-  brand: "Adidas",
-  sku: "camisa-nike",
-  picture: "https://armatura.com.co/cdn/shop/files/camisa-hombre-cuadros-azul-naval-cuello.webp?v=1716839126&width=540"
+    {
+      name: 'camisa Olas y Palmeras',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-6.png'
+    },
+    // producto9
 
-}
+    {
+      name: 'camisa Olas y Palmeras',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-7.png',
+    },
 
-]
+    // producto10
 
+    {
+      name: 'camisa Olas y Palmeras',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-8.png',
+    },
+    // producto11
+
+    {
+      name: 'camisa Olas y Palmeras',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-9.png',
+    },
+    // producto12
+
+    {
+      name: 'camisa Olas y Palmeras',
+      size: 'L',
+      stock: '200 unidades',
+      price: '300000',
+      category: 'camisa',
+      brand: 'Adidas',
+      sku: 'camisa-nike',
+      picture:
+        'https://www.biowebcolsacor.online/wp-content/uploads/2024/10/Rectangle-4-10.png',
+    },
+  ];
 }
