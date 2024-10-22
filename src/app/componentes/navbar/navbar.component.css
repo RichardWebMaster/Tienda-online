@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  .menuprimario {
+    background-color: #074a59;
+    padding: 80px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+  }
+  .bi.bi-person {
+    margin: 10px;
+  }
+  
+  .menusecundario {
+    background-color: #feb400;
+    padding: 80px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .titleneoclothes {
+    font-size: 120px;
+  }
+  
