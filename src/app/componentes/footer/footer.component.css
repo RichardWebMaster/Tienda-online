@@ -1,0 +1,27 @@
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+
+}
+
+
+.footer1 {
+    display: flex;
+justify-content: space-between;
+
+}
+.enlaces{
+display: flex;
+flex-direction: column;
+}
+
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+
+    
+}
